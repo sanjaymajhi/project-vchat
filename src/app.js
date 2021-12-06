@@ -24,15 +24,6 @@ require("firebase/firestore");
 require("firebase/database");
 
 var firebaseConfig = {
-  //   apiKey: "AIzaSyAy51aw4heZf4N9OnKvNa2C5TFrJ9w03Do",
-  //   authDomain: "engage-e4adf.firebaseapp.com",
-  //   databaseURL: "https://engage-e4adf-default-rtdb.firebaseio.com",
-  //   projectId: "engage-e4adf",
-  //   storageBucket: "engage-e4adf.appspot.com",
-  //   messagingSenderId: "64483244309",
-  //   appId: "1:64483244309:web:7c611555bc4b918c72111c",
-  //   measurementId: "G-63BZQQVVKM",
-
   apiKey: process.env.apiKey,
   authDomain: process.env.authDomain,
   databaseURL: process.env.databaseURL,
